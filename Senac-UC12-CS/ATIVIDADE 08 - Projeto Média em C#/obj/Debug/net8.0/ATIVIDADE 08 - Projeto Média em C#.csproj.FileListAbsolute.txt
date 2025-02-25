@@ -1,0 +1,14 @@
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\bin\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.exe
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\bin\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.deps.json
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\bin\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.runtimeconfig.json
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\bin\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.dll
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\bin\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.pdb
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.AssemblyInfo.cs
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.dll
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\refint\ATIVIDADE 08 - Projeto Média em C#.dll
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.pdb
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ATIVIDADE 08 - Projeto Média em C#.genruntimeconfig.cache
+C:\Users\yuri.mnunes\source\repos\ATIVIDADE 08 - Projeto Média em C#\obj\Debug\net8.0\ref\ATIVIDADE 08 - Projeto Média em C#.dll

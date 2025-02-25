@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Fliper"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 11:45:16 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMTk7IjExOjI4OjQ3ICI7MzIzNg=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMTk7IjExOjQ1OjE2ICI7MTszMzM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="P, R" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o valor de P?&quot;" newline="True"/>
+            <input variable="(P)"/>
+            <output expression="&quot;Qual o valor de R?&quot;" newline="True"/>
+            <input variable="(R)"/>
+            <if expression="P = 0">
+                <then>
+                    <output expression="&quot;C&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="R = 0">
+                        <then>
+                            <output expression="&quot;B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

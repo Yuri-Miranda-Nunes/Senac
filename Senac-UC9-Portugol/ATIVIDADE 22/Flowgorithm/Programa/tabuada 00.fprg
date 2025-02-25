@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tabuada 00"/>
+        <attribute name="authors" value="kauane.scunha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 11:50:41 "/>
+        <attribute name="created" value="a2F1YW5lLnNjdW5oYTtQSU4wNTgxOTEwVzEwLTE7MjAyNC0xMS0xOTsiMTE6NDE6MjcgIjszMzc3"/>
+        <attribute name="edited" value="a2F1YW5lLnNjdW5oYTtQSU4wNTgxOTEwVzEwLTE7MjAyNC0xMS0xOTsiMTE6NTA6NDEgIjsxOzM0ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, num" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero para ver a tabuada&quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;num,x,i,=,num*i&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

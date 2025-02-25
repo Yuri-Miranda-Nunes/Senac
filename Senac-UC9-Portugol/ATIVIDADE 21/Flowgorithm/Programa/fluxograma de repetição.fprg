@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma de repeti&#231;&#227;o"/>
+        <attribute name="authors" value="bianca.vsouza3"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 11:54:08 "/>
+        <attribute name="created" value="YmlhbmNhLnZzb3V6YTM7UElOMDU5NTg4M1cxMC0xOzIwMjQtMTEtMTk7IjExOjQzOjM1ICI7MzQ1OA=="/>
+        <attribute name="edited" value="YmlhbmNhLnZzb3V6YTM7UElOMDU5NTg4M1cxMC0xOzIwMjQtMTEtMTk7IjExOjU0OjA4ICI7MTszNTY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, num" type="Integer" array="False" size=""/>
+            <output expression="(&quot;digite um n&#250;mero para ver a tabuada :&quot;)" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="(num&amp;&quot;X&quot;&amp;i&amp;&quot;=&quot;&amp;num*i)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

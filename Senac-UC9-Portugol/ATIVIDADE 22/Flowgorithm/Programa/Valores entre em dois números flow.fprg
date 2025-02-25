@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Valores entre em dois n&#250;meros flow"/>
+        <attribute name="authors" value="arthur.vroliveira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-21 11:00:06 "/>
+        <attribute name="created" value="YXJ0aHVyLnZyb2xpdmVpcmE7UElOMDU4MTkwNVcxMC0xOzIwMjQtMTEtMjE7IjEwOjU1OjIxICI7Mzg1NA=="/>
+        <attribute name="edited" value="YXJ0aHVyLnZyb2xpdmVpcmE7UElOMDU4MTkwNVcxMC0xOzIwMjQtMTEtMjE7IjExOjAwOjA2ICI7MTszOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, inici, fim, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A &lt; B">
+                <then>
+                    <assign variable="inici" expression="A"/>
+                    <assign variable="fim" expression="B"/>
+                </then>
+                <else>
+                    <assign variable="inici" expression="B"/>
+                    <assign variable="fim" expression="A"/>
+                </else>
+            </if>
+            <for variable="i" start="inici" end="fim" direction="inc" step="1">
+                <output expression="i&amp;&quot; &quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

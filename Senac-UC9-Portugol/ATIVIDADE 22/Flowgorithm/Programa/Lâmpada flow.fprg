@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L&#226;mpada flow"/>
+        <attribute name="authors" value="arthur.vroliveira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-21 10:53:01 "/>
+        <attribute name="created" value="YXJ0aHVyLnZyb2xpdmVpcmE7UElOMDU4MTkwNVcxMC0xOzIwMjQtMTEtMjE7IjEwOjEzOjI4ICI7Mzg1NQ=="/>
+        <attribute name="edited" value="YXJ0aHVyLnZyb2xpdmVpcmE7UElOMDU4MTkwNVcxMC0xOzIwMjQtMTEtMjE7IjEwOjUzOjAxICI7MTszOTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, ns" type="Integer" array="False" size=""/>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="0"/>
+            <output expression="&quot;Quantas vezes o interruptor foi apertado&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Qual interruptor voc&#234; apertou&quot;" newline="True"/>
+                <input variable="ns"/>
+                <if expression="ns = 1">
+                    <then>
+                        <if expression="a = 1">
+                            <then>
+                                <assign variable="a" expression="0"/>
+                            </then>
+                            <else>
+                                <assign variable="a" expression="1"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="ns = 2">
+                    <then>
+                        <if expression="a = 1">
+                            <then>
+                                <assign variable="a" expression="0"/>
+                            </then>
+                            <else>
+                                <assign variable="a" expression="1"/>
+                            </else>
+                        </if>
+                        <if expression="b = 1">
+                            <then>
+                                <assign variable="b" expression="0"/>
+                            </then>
+                            <else>
+                                <assign variable="b" expression="1"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;L&#226;mpada A est&#225; ligada: &quot;&amp;a" newline="True"/>
+            <output expression="&quot;L&#226;mpada B est&#225; ligada: &quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

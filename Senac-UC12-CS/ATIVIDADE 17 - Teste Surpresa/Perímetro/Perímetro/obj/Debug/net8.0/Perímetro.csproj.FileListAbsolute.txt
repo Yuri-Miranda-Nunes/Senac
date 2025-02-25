@@ -1,0 +1,15 @@
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\bin\Debug\net8.0\Perímetro.exe
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\bin\Debug\net8.0\Perímetro.deps.json
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\bin\Debug\net8.0\Perímetro.runtimeconfig.json
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\bin\Debug\net8.0\Perímetro.dll
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\bin\Debug\net8.0\Perímetro.pdb
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.AssemblyInfo.cs
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.sourcelink.json
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.dll
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\refint\Perímetro.dll
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.pdb
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\Perímetro.genruntimeconfig.cache
+C:\Users\yuri.mnunes\OneDrive - SENAC - SP\Documentos\AQUI È SEGURO DE SALVAR\Senac-UC12-CS\ATIVIDADE 17\Perímetro\Perímetro\obj\Debug\net8.0\ref\Perímetro.dll

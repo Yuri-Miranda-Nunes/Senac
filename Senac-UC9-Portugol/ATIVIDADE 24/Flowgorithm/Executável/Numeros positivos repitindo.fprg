@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Numeros positivos repitindo"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-25 11:12:16 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjAzOjI2ICI7MzIyMw=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjEyOjE2ICI7MTszMzMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, toral" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um numero positivo para ver a sequencia&quot;" newline="True"/>
+            <input variable="num1"/>
+            <for variable="toral" start="1" end="num1" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp; toral &amp; &quot; &quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

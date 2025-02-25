@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="menu de op&#231;&#245;es arthur e yuri"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-26 08:41:40 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjI1OjI2ICI7MzIyNw=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjU2OjIwICI7MTszMzMz"/>
+        <attribute name="edited" value="YXJ0aHVyLnZyb2xpdmVpcmE7UElOMDMyMzU2MVcxMC0xOzIwMjQtMTEtMjY7IjA4OjQxOjQwICI7MTszOTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, quadrado" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. Verificar se um n&#250;mero &#233; par ou impar&quot;" newline="True"/>
+            <output expression="&quot;2. Calcular um n&#250;mero ao quadrado&quot;" newline="True"/>
+            <output expression="&quot;3. Encerrar o programa&quot;" newline="True"/>
+            <output expression="&quot;Escolha uma das op&#231;&#245;es&quot;" newline="True"/>
+            <input variable="num2"/>
+            <while expression="(num2 &gt;= 1) &amp;&amp; (num2 &lt; 3)">
+                <if expression="num2 &lt; 1 || num2 &gt; 3">
+                    <then>
+                        <output expression="&quot;Op&#231;&#227;o Inv&#225;lida.&quot;" newline="True"/>
+                        <output expression="&quot;Escolha 1,2 e 3&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="num2 = 1">
+                    <then>
+                        <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+                        <input variable="num1"/>
+                        <output expression="&quot;Escolha :&quot;&amp;num2" newline="True"/>
+                        <output expression="&quot;Digite o n&#250;mero: &quot;&amp;num1" newline="True"/>
+                        <if expression="num1 mod 2 = 0">
+                            <then>
+                                <output expression="&quot;Resultado: Par&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Resultado: &#237;mpar&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="num2 = 2">
+                    <then>
+                        <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+                        <input variable="num1"/>
+                        <output expression="&quot;Escolha: &quot;&amp;num2" newline="True"/>
+                        <output expression="&quot;Digite o n&#250;mero: &quot; &amp;num1" newline="True"/>
+                        <assign variable="quadrado" expression="num1*num1"/>
+                        <output expression="&quot;Resultado: &quot;&amp;quadrado" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;1. Verificar se um n&#250;mero &#233; par ou impar&quot;" newline="True"/>
+                <output expression="&quot;2. Calcular um n&#250;mero ao quadrado&quot;" newline="True"/>
+                <output expression="&quot;3. Encerrar o programa&quot;" newline="True"/>
+                <output expression="&quot;Escolha uma das op&#231;&#245;es&quot;" newline="True"/>
+                <input variable="num2"/>
+            </while>
+            <output expression="&quot;Fim de Programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

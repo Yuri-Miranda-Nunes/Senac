@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Calculador de Idade"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-25 11:16:53 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjEyOjQ4ICI7MzIyNw=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjE2OjUzICI7MTszMzM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, meses, semanas, dias" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a sua idade&quot;" newline="True"/>
+            <input variable="ano"/>
+            <output expression="&quot; Meses: &quot; &amp; ano * 12" newline="True"/>
+            <output expression="&quot; Semanas: &quot; &amp; ano * 52" newline="True"/>
+            <output expression="&quot; Dias: &quot; &amp; ano * 365" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

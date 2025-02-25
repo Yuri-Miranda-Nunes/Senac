@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Diferença entre dois números inteiros/1.0.0": {
+        "runtime": {
+          "Diferença entre dois números inteiros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Diferença entre dois números inteiros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

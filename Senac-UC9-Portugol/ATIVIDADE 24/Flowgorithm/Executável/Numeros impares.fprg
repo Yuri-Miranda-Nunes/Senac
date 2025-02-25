@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Numeros impares"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-25 11:25:06 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjE2OjU4ICI7MzIzMg=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjI1OjA2ICI7MTszMzMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero de inicio&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite o n&#250;mero de Fim&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1 mod 2 = 0">
+                <then>
+                    <assign variable="num1" expression="num1 + 1"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="i" expression="num1"/>
+            <while expression="i &lt;= num2">
+                <output expression="i &amp; &quot; &quot;" newline="True"/>
+                <assign variable="i" expression="i + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

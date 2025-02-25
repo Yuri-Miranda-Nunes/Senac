@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ATIVIDADE 08 - Projeto Média em C#/1.0.0": {
+        "runtime": {
+          "ATIVIDADE 08 - Projeto Média em C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATIVIDADE 08 - Projeto Média em C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

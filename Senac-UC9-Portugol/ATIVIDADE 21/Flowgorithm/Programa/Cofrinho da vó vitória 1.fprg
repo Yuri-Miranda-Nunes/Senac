@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Cofrinho da v&#243; vit&#243;ria"/>
+        <attribute name="authors" value="artve"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-20 06:22:25 "/>
+        <attribute name="created" value="YXJ0dmU7REVTS1RPUC04UktWSDIyOzIwMjQtMTEtMjA7IjA2OjA0OjU0ICI7Mjc4Ng=="/>
+        <attribute name="edited" value="YXJ0dmU7REVTS1RPUC04UktWSDIyOzIwMjQtMTEtMjA7IjA2OjIyOjI1ICI7MTsyODky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, J, Z, I" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="0"/>
+            <output expression="&quot;Quantos dep&#243;sitos voc&#234; ir&#225; fazer: &quot;" newline="True"/>
+            <input variable="N"/>
+            <for variable="I" start="1" end="N" direction="inc" step="1">
+                <output expression="&quot;Quantos centavos Jo&#227;ozinho ir&#225; receber: &quot;" newline="True"/>
+                <input variable="J"/>
+                <output expression="&quot;Quantos centavos Zezinho ir&#225; receber: &quot;" newline="True"/>
+                <input variable="Z"/>
+            </for>
+            <if expression="J &gt; Z">
+                <then>
+                    <output expression="&quot;Jo&#227;ozinho recebeu: &quot;&amp;J-Z&amp;&quot; a mais&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="J &lt; Z">
+                <then>
+                    <output expression="&quot;Zezinho recebeu: &quot;&amp;Z-J&amp;&quot; a mais&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="J = Z">
+                <then>
+                    <output expression="&quot;Os dois receberam a mesma quantidade&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tabuada at&#233; 0 Arthur e Yuri"/>
+        <attribute name="authors" value="yuri.mnunes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-25 11:03:08 "/>
+        <attribute name="created" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjEwOjU1OjI4ICI7MzIzMQ=="/>
+        <attribute name="edited" value="eXVyaS5tbnVuZXM7UElOMDU4MTk1MFcxMC0xOzIwMjQtMTEtMjU7IjExOjAzOjA4ICI7MTszMzMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva o n&#250;mero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <while expression="num1 &gt; 0">
+                <for variable="i" start="1" end="10" direction="inc" step="1">
+                    <output expression="&quot; &quot;&amp; num1 &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; num1 * i" newline="True"/>
+                </for>
+                <output expression="&quot;Escreva o N&#250;mero&quot;" newline="True"/>
+                <input variable="num1"/>
+            </while>
+            <output expression="&quot;O programa foi encerrado&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
