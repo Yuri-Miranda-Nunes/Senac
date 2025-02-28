@@ -1,0 +1,15 @@
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.AssemblyInfo.cs
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.sourcelink.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\bin\Debug\net8.0\Menu de opções.exe
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\bin\Debug\net8.0\Menu de opções.deps.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\bin\Debug\net8.0\Menu de opções.runtimeconfig.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\bin\Debug\net8.0\Menu de opções.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\bin\Debug\net8.0\Menu de opções.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\refint\Menu de opções.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\Menu de opções.genruntimeconfig.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 23 - Atividade Avaliativa Parcial\Menu de opções\obj\Debug\net8.0\ref\Menu de opções.dll
