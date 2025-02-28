@@ -1,0 +1,15 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ATIVIDADE_18___Array___IF_ELSE___FOR___Números_Primos
+build_property.ProjectDir = C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 19 - O que é isso Programação orientada a objeto\ATIVIDADE 18 - Array - IF ELSE - FOR - Números Primos\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
