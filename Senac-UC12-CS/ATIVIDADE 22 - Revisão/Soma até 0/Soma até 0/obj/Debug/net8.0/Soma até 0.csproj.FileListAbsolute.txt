@@ -1,0 +1,15 @@
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\bin\Debug\net8.0\Soma até 0.exe
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\bin\Debug\net8.0\Soma até 0.deps.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\bin\Debug\net8.0\Soma até 0.runtimeconfig.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\bin\Debug\net8.0\Soma até 0.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\bin\Debug\net8.0\Soma até 0.pdb
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.AssemblyInfoInputs.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.AssemblyInfo.cs
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.sourcelink.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\refint\Soma até 0.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.pdb
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\Soma até 0.genruntimeconfig.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\Soma até 0\Soma até 0\obj\Debug\net8.0\ref\Soma até 0.dll

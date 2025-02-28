@@ -1,0 +1,15 @@
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\bin\Debug\net8.0\IF-ELSE 2.exe
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\bin\Debug\net8.0\IF-ELSE 2.deps.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\bin\Debug\net8.0\IF-ELSE 2.runtimeconfig.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\bin\Debug\net8.0\IF-ELSE 2.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\bin\Debug\net8.0\IF-ELSE 2.pdb
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.AssemblyInfoInputs.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.AssemblyInfo.cs
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.sourcelink.json
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\refint\IF-ELSE 2.dll
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.pdb
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\IF-ELSE 2.genruntimeconfig.cache
+C:\Users\Yuri\Documents\Senac\Senac-UC12-CS\ATIVIDADE 22 - Revisão\IF-ELSE 2\IF-ELSE 2\obj\Debug\net8.0\ref\IF-ELSE 2.dll
