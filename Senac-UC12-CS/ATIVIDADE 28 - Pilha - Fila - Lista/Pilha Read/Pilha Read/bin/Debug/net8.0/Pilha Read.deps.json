@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pilha Read/1.0.0": {
+        "runtime": {
+          "Pilha Read.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pilha Read/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

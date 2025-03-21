@@ -1,0 +1,19 @@
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\bin\Debug\net8.0-windows\Tela do banco de dados biblioteca.exe
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\bin\Debug\net8.0-windows\Tela do banco de dados biblioteca.deps.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\bin\Debug\net8.0-windows\Tela do banco de dados biblioteca.runtimeconfig.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\bin\Debug\net8.0-windows\Tela do banco de dados biblioteca.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\bin\Debug\net8.0-windows\Tela do banco de dados biblioteca.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela_do_banco_de_dados_biblioteca.frmCliente.resources
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela_do_banco_de_dados_biblioteca.Properties.Resources.resources
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.csproj.GenerateResource.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.AssemblyInfo.cs
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.sourcelink.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\refint\Tela do banco de dados biblioteca.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela do banco de dados biblioteca.genruntimeconfig.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\ref\Tela do banco de dados biblioteca.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 25\Tela do banco de dados biblioteca\Tela do banco de dados biblioteca\obj\Debug\net8.0-windows\Tela_do_banco_de_dados_biblioteca.frmendereco.resources

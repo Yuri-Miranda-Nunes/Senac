@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13ED63D7-F08F-4066-9E96-7CFB958FFC7B}|26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente.csproj|c:\\users\\yuri.mnunes\\downloads\\senac\\senac-uc12-cs\\atividade 26 - leitura de solicita\u00E7\u00E3o de cliente\\26 - leitura de solicita\u00E7\u00E3o de cliente\\26 - leitura de solicita\u00E7\u00E3o de cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13ED63D7-F08F-4066-9E96-7CFB958FFC7B}|26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente.csproj|solutionrelative:26 - leitura de solicita\u00E7\u00E3o de cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13ED63D7-F08F-4066-9E96-7CFB958FFC7B}|26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente.csproj|c:\\users\\yuri.mnunes\\downloads\\senac\\senac-uc12-cs\\atividade 26 - leitura de solicita\u00E7\u00E3o de cliente\\26 - leitura de solicita\u00E7\u00E3o de cliente\\26 - leitura de solicita\u00E7\u00E3o de cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13ED63D7-F08F-4066-9E96-7CFB958FFC7B}|26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente.csproj|solutionrelative:26 - leitura de solicita\u00E7\u00E3o de cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "RelativeDocumentMoniker": "26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "ToolTip": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "RelativeToolTip": "26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:15:54.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "RelativeDocumentMoniker": "26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs",
+              "ToolTip": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs [Projeto]",
+              "RelativeToolTip": "26 - Leitura de solicita\u00E7\u00E3o de cliente\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:04:17.406Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

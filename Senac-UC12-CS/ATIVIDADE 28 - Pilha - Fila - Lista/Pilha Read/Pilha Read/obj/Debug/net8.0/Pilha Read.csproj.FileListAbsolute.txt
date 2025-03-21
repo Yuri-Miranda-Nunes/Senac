@@ -1,0 +1,15 @@
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\bin\Debug\net8.0\Pilha Read.exe
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\bin\Debug\net8.0\Pilha Read.deps.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\bin\Debug\net8.0\Pilha Read.runtimeconfig.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\bin\Debug\net8.0\Pilha Read.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\bin\Debug\net8.0\Pilha Read.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.AssemblyInfo.cs
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.sourcelink.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\refint\Pilha Read.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\Pilha Read.genruntimeconfig.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Pilha Read\Pilha Read\obj\Debug\net8.0\ref\Pilha Read.dll

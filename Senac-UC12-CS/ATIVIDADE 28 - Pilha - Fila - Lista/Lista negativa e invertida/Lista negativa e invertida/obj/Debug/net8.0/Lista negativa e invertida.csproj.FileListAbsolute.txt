@@ -1,0 +1,15 @@
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\bin\Debug\net8.0\Lista negativa e invertida.exe
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\bin\Debug\net8.0\Lista negativa e invertida.deps.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\bin\Debug\net8.0\Lista negativa e invertida.runtimeconfig.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\bin\Debug\net8.0\Lista negativa e invertida.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\bin\Debug\net8.0\Lista negativa e invertida.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.AssemblyInfoInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.AssemblyInfo.cs
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.csproj.CoreCompileInputs.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.sourcelink.json
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\refint\Lista negativa e invertida.dll
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.pdb
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\Lista negativa e invertida.genruntimeconfig.cache
+C:\Users\yuri.mnunes\Downloads\Senac\Senac-UC12-CS\ATIVIDADE 28 - Pilha - Fila - Lista\Lista negativa e invertida\Lista negativa e invertida\obj\Debug\net8.0\ref\Lista negativa e invertida.dll

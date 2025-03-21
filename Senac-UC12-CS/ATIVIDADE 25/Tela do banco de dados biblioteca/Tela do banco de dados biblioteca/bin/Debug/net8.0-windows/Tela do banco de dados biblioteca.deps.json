@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tela do banco de dados biblioteca/1.0.0": {
+        "runtime": {
+          "Tela do banco de dados biblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tela do banco de dados biblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
