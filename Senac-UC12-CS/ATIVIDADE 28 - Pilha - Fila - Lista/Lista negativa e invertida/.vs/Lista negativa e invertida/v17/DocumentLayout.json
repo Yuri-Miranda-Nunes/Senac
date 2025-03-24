@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "Lista negativa e invertida\\Program.cs",
               "ToolTip": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 28 - Pilha - Fila - Lista\\Lista negativa e invertida\\Lista negativa e invertida\\Program.cs",
               "RelativeToolTip": "Lista negativa e invertida\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T13:58:54.532Z",
               "EditorCaption": ""
