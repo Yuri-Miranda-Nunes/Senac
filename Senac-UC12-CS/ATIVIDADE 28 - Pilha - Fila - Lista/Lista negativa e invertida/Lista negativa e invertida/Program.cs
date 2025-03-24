@@ -28,7 +28,7 @@ class Program
         {
             int numero = pilhaFiltrada[pilhaFiltrada.Count - 1]; // Pega o último elemento
             pilhaFiltrada.RemoveAt(pilhaFiltrada.Count - 1);      // Remove o último elemento
-            pilhaInvertida.Add(numero);                          // Adiciona à pilha invertid
+            pilhaInvertida.Add(numero);                          // Adiciona à pilha invertida
         }
 
         Console.WriteLine("Pilha invertida: " + string.Join(", ", pilhaInvertida));

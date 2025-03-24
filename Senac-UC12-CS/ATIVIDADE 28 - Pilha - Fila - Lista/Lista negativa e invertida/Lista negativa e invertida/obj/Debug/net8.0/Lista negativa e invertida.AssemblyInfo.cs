@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lista negativa e invertida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+badeb9dd9ecb93d9a11a2f0d4da6fa7ea2a86d6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a54a567bb5e603f61f9f2d9b11b43932ac15ee19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lista negativa e invertida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lista negativa e invertida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
