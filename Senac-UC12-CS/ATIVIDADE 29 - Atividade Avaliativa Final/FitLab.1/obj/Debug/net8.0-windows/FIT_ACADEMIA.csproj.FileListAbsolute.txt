@@ -1,0 +1,111 @@
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.exe
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.deps.json
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.runtimeconfig.json
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.AssemblyReference.cache
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form1.resources
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form2.resources
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form3.resources
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.GenerateResource.cache
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfoInputs.cache
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfo.cs
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.CoreCompileInputs.cache
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACAD.EADCF70F.Up2Date
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\refint\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.genruntimeconfig.cache
+C:\Users\andre.asilva47\source\repos\FIT_ACADEMIA\obj\Debug\net8.0-windows\ref\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.exe
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.deps.json
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.runtimeconfig.json
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.AssemblyReference.cache
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form1.resources
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form2.resources
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form3.resources
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.GenerateResource.cache
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfoInputs.cache
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfo.cs
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.CoreCompileInputs.cache
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACAD.EADCF70F.Up2Date
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\refint\FIT_ACADEMIA.dll
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.genruntimeconfig.cache
+C:\Users\andre.asilva47\OneDrive - SENAC - SP\Senac\Turmas\Técnico em Informática 10\QT3\UC 12\FIT_ACADEMIA\obj\Debug\net8.0-windows\ref\FIT_ACADEMIA.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.exe
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.deps.json
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.runtimeconfig.json
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.AssemblyReference.cache
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form1.resources
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form2.resources
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form3.resources
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.GenerateResource.cache
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfoInputs.cache
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.AssemblyInfo.cs
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACAD.EADCF70F.Up2Date
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\refint\FIT_ACADEMIA.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.pdb
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.genruntimeconfig.cache
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\ref\FIT_ACADEMIA.dll
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Properties.Resources.resources
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form4.resources
+C:\Users\Yuri\Downloads\FIT_ACADEMIA 1\FIT_ACADEMIA\obj\Debug\net8.0-windows\FIT_ACADEMIA.Form5.resources

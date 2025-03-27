@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|c:\\users\\yuri\\downloads\\fit_academia 1\\fit_academia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|c:\\users\\yuri\\downloads\\fit_academia 1\\fit_academia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|c:\\users\\yuri\\downloads\\fit_academia 1\\fit_academia\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|c:\\users\\yuri\\downloads\\fit_academia 1\\fit_academia\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|c:\\users\\yuri\\downloads\\fit_academia 1\\fit_academia\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E1ECE9-0692-4068-B89D-FD90A0DED4D4}|FIT_ACADEMIA.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:18:50.555Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form2.cs [Projeto]",
+              "RelativeToolTip": "Form2.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:35:41.762Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form3.cs [Projeto]",
+              "RelativeToolTip": "Form3.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:48:44.33Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form4.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form4.cs [Projeto]",
+              "RelativeToolTip": "Form4.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T22:12:35.78Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA8wEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:39:18.673Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:36:51.948Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:49:10.297Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T22:29:26.662Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
