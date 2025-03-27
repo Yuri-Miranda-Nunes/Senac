@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\FIT_ACADEMIA.csproj": {}
+    "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 29 - Atividade Avaliativa Final\\FitLab.1\\FIT_ACADEMIA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\FIT_ACADEMIA.csproj": {
+    "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 29 - Atividade Avaliativa Final\\FitLab.1\\FIT_ACADEMIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\FIT_ACADEMIA.csproj",
+        "projectUniqueName": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 29 - Atividade Avaliativa Final\\FitLab.1\\FIT_ACADEMIA.csproj",
         "projectName": "FIT_ACADEMIA",
-        "projectPath": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\FIT_ACADEMIA.csproj",
-        "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri\\Downloads\\FIT_ACADEMIA 1\\FIT_ACADEMIA\\obj\\",
+        "projectPath": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 29 - Atividade Avaliativa Final\\FitLab.1\\FIT_ACADEMIA.csproj",
+        "packagesPath": "C:\\Users\\yuri.mnunes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yuri.mnunes\\Downloads\\Senac\\Senac-UC12-CS\\ATIVIDADE 29 - Atividade Avaliativa Final\\FitLab.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yuri.mnunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

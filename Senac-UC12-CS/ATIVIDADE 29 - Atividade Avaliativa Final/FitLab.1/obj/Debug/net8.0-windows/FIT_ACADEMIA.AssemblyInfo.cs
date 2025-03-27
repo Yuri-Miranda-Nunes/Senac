@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FIT_ACADEMIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8efeb38579123f310c5eaa47478e93cdc6c8d251")]
 [assembly: System.Reflection.AssemblyProductAttribute("FIT_ACADEMIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FIT_ACADEMIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

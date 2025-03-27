@@ -104,7 +104,7 @@
             Controls.Add(btn2);
             Controls.Add(btn);
             Name = "Form1";
-            Text = "FIT ACADEMIA";
+            Text = "FIT ACADEMIA teste";
             Load += Form1_Load;
             ResumeLayout(false);
         }
