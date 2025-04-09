@@ -1,0 +1,64 @@
+
+body {
+    background-color: #211A1D;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.Title {
+    color: #6320EE;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.SubTitle {
+    color: #8075FF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Paragraph {
+    color: #E2FCEF;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.Botoes {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.Lista {
+    color: #E2FCEF;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.Botao {
+    appearance: none; /* Remove estilos nativos */
+    -webkit-appearance: none; /* Para navegadores WebKit */
+    -moz-appearance: none; /* Para Firefox */
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: #6320EE;
+    color: #E2FCEF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.Botao:hover {
+    background-color: #8075FF;
+    transform: scale(1.05);
+}
+.Botao:active {
+    background-color: #6320EE;
+    transform: scale(0.95);
+}
