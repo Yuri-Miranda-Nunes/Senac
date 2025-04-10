@@ -1,0 +1,43 @@
+header {
+    background-color: #313876;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a9c6ff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-left: #313876 solid 5px; /* Borda esquerda azul */
+}
+section:hover {
+    transform: scale(1.02);
+}
+h2 {
+    color: #313876;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #313876;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
