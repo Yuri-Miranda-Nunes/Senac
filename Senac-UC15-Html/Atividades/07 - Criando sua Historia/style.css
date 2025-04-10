@@ -2,23 +2,23 @@
 .container {
     position: relative; /* Define o contêiner como referência */
     text-align: center; /* Centraliza o texto */
+    background-color: #A9927D;
+    width: 60%;
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+    border: #472C1B 5px solid; /* Borda verde escura */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: #000000 20px 10px; /* Sombra da borda */
+    
   }
   
-  img {
-    max-width: 80%;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-  
-  img:hover {
-    transform: scale(1.1);
-  }
-  
+ 
   p {
     margin-top: 20px; /* Espaçamento entre a imagem e o texto */
-    color: #B3FA00;
-    font-size: 20px;
-    line-height: 1.5
+    color: #000000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left; /* Alinha o texto à esquerda */
   }
   .special-gothic-expanded-one-regular {
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -26,15 +26,14 @@
     font-style: normal;
   }
   
-  h1 {
+  h1, h2 {
     font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 40px;
   }
-  h2 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-  }
+  
 
   body {
-    background-color: #1E2E28;
+    background-image: url(img/1076809_885.jpg); /* Imagem de fundo */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
