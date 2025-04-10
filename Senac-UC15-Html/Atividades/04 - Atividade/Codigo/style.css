@@ -5,6 +5,13 @@ body {
     margin: 0;
     padding: 20px;
 }
+.container {
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza todos os elementos horizontalmente */
+    gap: 15px; /* Espaçamento entre os elementos */
+    text-align: center; /* Centraliza o texto */
+  }
 .Title {
     color: #6320EE;
     font-size: 50px;
@@ -16,11 +23,26 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
 }
+.Imagem {
+    width: 100%; /* Ocupa 100% do contêiner */
+    height: auto; /* Mantém a proporção */
+    max-width: 600px; /* Define um limite máximo para evitar distorções */
+    border: 5px solid #070101; /* Borda branca */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+}
+img:hover {
+    transform: scale(1.1); /* Amplia a imagem */
+    filter: brightness(1.2); /* Aumenta o brilho */
+  }
 .Paragraph {
     color: #E2FCEF;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 .Botoes {
     display: flex;
