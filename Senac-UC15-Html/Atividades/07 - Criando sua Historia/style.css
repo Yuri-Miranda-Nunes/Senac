@@ -1,0 +1,42 @@
+
+.container {
+    position: relative; /* Define o contêiner como referência */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  p {
+    margin-top: 20px; /* Espaçamento entre a imagem e o texto */
+    color: #B3FA00;
+    font-size: 20px;
+    line-height: 1.5
+  }
+  .special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+  }
+  h2 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+  }
+
+  body {
+    background-color: #1E2E28;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+  }
