@@ -1,41 +1,78 @@
+body {
+  background-image: url(img/1076809_885.jpg);
+  /* Imagem de fundo */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
 
 .container {
-    position: relative; /* Define o contêiner como referência */
-    text-align: center; /* Centraliza o texto */
-    background-color: #A9927D;
-    width: 60%;
-    margin: 0 auto; /* Centraliza o contêiner na página */
-    padding: 20px; /* Adiciona um pouco de espaço interno */
-    border: #472C1B 5px solid; /* Borda verde escura */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: #000000 20px 10px; /* Sombra da borda */
-    
-  }
-  
- 
-  p {
-    margin-top: 20px; /* Espaçamento entre a imagem e o texto */
-    color: #000000;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: left; /* Alinha o texto à esquerda */
-  }
-  .special-gothic-expanded-one-regular {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  h1, h2 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 40px;
-  }
-  
+  position: relative;
+  /* Define o contêiner como referência */
+  text-align: center;
+  /* Centraliza o texto */
+  background-color: #A9927D;
+  width: 60%;
+  margin: 0 auto;
+  /* Centraliza o contêiner na página */
+  padding: 20px;
+  /* Adiciona um pouco de espaço interno */
+  border: #472C1B 5px solid;
+  /* Borda verde escura */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  box-shadow: #000000 20px 10px;
+  /* Sombra da borda */
+}
 
-  body {
-    background-image: url(img/1076809_885.jpg); /* Imagem de fundo */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+.container img {
+  width: 100%;
+  /* Ajusta a imagem para ocupar 100% da largura do contêiner */
+  height: auto;
+  /* Mantém a proporção da imagem */
+  display: block;
+  /* Remove espaços abaixo da imagem */
+  margin: 0 auto;
+  /* Centraliza a imagem horizontalmente */
+  border-radius: 10px;
+  /* Arredonda as bordas da imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra suave */
+}
 
-  }
+p {
+  margin-top: 20px;
+  /* Espaçamento entre a imagem e o texto */
+  color: #000000;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: left;
+  /* Alinha o texto à esquerda */
+}
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-size: 40px;
+}
+
+.frase {
+
+  margin: 20px;
+  padding: 20px;
+  background-color: #a27d5a;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra suave */
+  border-left: #000000 solid 5px;
+  /* Borda esquerda azul */
+}
