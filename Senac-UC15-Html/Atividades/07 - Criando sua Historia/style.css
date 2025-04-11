@@ -76,3 +76,68 @@ h2 {
   border-left: #000000 solid 5px;
   /* Borda esquerda azul */
 }
+.sidebar {
+  width: 25px;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  right: 0; /* Posiciona a sidebar à direita */
+  transition: width 0.3s ease;
+  overflow: hidden;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 1px solid lightgoldenrodyellow;
+}
+
+/* Expande ao passar o mouse */
+.sidebar:hover {
+  width: 250px;
+  border: 1px solid white;
+}
+
+/* Esconde o texto do título quando a sidebar está retraída */
+.sidebar h2 {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar:hover h2 {
+  opacity: 1;
+}
+
+/* Estilo da lista de itens */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+/* Esconde o texto dos links quando a sidebar está retraída */
+.sidebar ul li a {
+  color: lightgoldenrodyellow;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar:hover ul li a {
+  opacity: 1;
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+.sidebar:hover ~ .content {
+  margin-right: 250px;
+}
+
