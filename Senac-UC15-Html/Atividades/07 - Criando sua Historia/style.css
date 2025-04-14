@@ -40,6 +40,9 @@ body {
   /* Sombra suave */
 }
 
+strong{
+  font-size: 40px;
+}
 p {
   margin-top: 20px;
   /* Espaçamento entre a imagem e o texto */
@@ -48,6 +51,7 @@ p {
   line-height: 1.5;
   text-align: left;
   font-family: "Charm", cursive;
+  font-weight: bold;
   /* Alinha o texto à esquerda */
 }
 .charm-regular {
