@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E24;
+    color: #FFF8F0;
+  }
+
+  section {
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    color: #854798;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #FFCF99;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color: #FFCF99;
+  }
+
+  a {
+    color: #1DD3B0;
+    text-decoration: none;
+  }
+
+  a.button {
+    display: inline-block;
+    background-color: #1DD3B0;
+    color: #1E1E24;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  a.button:hover {
+    background-color: #16b59d;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    background-color: #1E1E24;
+    border: 1px solid #854798;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #1E1E24;
+    color: #FFF8F0;
+    border: 1px solid #FFCF99;
+    border-radius: 6px;
+  }
+
+  button {
+    background-color: #1DD3B0;
+    color: #1E1E24;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    color: #FFCF99;
+    padding: 30px 20px;
+    border-top: 1px solid #854798;
+  }
+  .menu-link {
+    color: #FFCF99; 
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: 600; 
+    transition: color 0.3s ease;
+  }
+  .menu-link:hover {
+    color: #1DD3B0; /* A cor muda para verde-água */
+  }
