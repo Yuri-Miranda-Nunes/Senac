@@ -95,3 +95,20 @@ body {
   .menu-link:hover {
     color: #1DD3B0; /* A cor muda para verde-água */
   }
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main, section {
+    flex: 1;
+  }
+  li {
+    margin: 10px 0;
+  }
+  section a {
+    display: flex;
+    justify-content: center;
+  }
+  
