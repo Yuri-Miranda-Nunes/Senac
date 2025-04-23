@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do Header e Menu */
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff7851;
+}
+
+/* Estilos Gerais para o Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Introdução e Projetos */
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.intro p {
+    color: #666;
+    font-size: 1.2rem;
+    max-width: 600px; 
+    margin: 3rem auto; 
+    line-height: 1.6;
+    text-align: center; 
+}
+
+
+
+.projects {
+    width: 100%;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item h3 {
+    color: #ff7851;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Página de Currículo */
+.curriculo-container {
+    width: 100%;
+}
+
+.curriculo-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #ff7851;
+    margin-bottom: 1rem;
+}
+
+.bio, .experiencia, .habilidades {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 550px; 
+   
+}
+
+.bio p, .experiencia ul, .habilidades ul {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.experiencia ul, .habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experiencia li, .habilidades li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.experiencia li:before, .habilidades li:before {
+    content: "•";
+    color: #ff7851;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Efeitos de Transição */
+a, .project-item, .menu a {
+    transition: all 0.3s ease-in-out;
+}
