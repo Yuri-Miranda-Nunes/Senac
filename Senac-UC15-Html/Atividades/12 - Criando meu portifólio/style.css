@@ -1,114 +1,187 @@
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #1E1E24;
-    color: #FFF8F0;
-  }
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1E1E24;
+  color: #FFF8F0;
+}
 
-  section {
-    padding: 60px 30px;
-    max-width: 1000px;
-    margin: auto;
-  }
+section {
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  h1 {
-    color: #854798;
-    font-size: 48px;
-    margin-bottom: 10px;
-  }
+h1 {
+  color: #854798;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
 
-  h2 {
-    color: #FFCF99;
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
+h2 {
+  color: #FFCF99;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
 
-  h3 {
-    color: #FFCF99;
-  }
+h3 {
+  color: #FFCF99;
+}
 
-  a {
-    color: #1DD3B0;
-    text-decoration: none;
-  }
+a {
+  color: #1DD3B0;
+  text-decoration: none;
+}
 
-  a.button {
-    display: inline-block;
-    background-color: #1DD3B0;
-    color: #1E1E24;
-    padding: 12px 24px;
-    border-radius: 8px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-  }
+a.button {
+  display: inline-block;
+  background-color: #1DD3B0;
+  color: #1E1E24;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
 
-  a.button:hover {
-    background-color: #16b59d;
-  }
+a.button:hover {
+  background-color: #16b59d;
+}
 
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  .card {
-    background-color: #1E1E24;
-    border: 1px solid #854798;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-  }
+.card {
+  background-color: #1E1E24;
+  border: 1px solid #854798;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #1E1E24;
+  border: 1px solid #854798;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(33.333% - 20px);
+  /* Ajusta a largura para caber 3 cards por linha com o gap */
+  box-sizing: border-box;
+  /* Inclui padding e border no cálculo da largura */
+  display: flex;
+  /* Torna o card um contêiner flexível */
+  flex-direction: column;
+  /* Garante que o conteúdo seja empilhado verticalmente */
+  overflow: hidden;
+  /* Garante que o conteúdo não ultrapasse os limites do card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  /* Aumenta o tamanho do card ao passar o mouse */
+  transition: transform
+    0.3s ease;
+  /* Faz a transição suave do aumento */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Adiciona sombra ao card ao passar o mouse */
+}
+.card ol {
+  color: #FFF8F0;
+  /* Cor do texto */
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  /* remove o recuo padrão */
+}
+strong {
+  color: #FFCF99;
+  /* Cor do texto forte */
+  font-size: 18px;
+}
+.card h3 {
+  color: #FFCF99;
+  /* Cor do título */
+  font-size: 24px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Faz a transição suave do aumento */
+  text-align: center;
+  /* Centraliza o texto dentro do card */
+}
+.card:hover h3 {
+  transform: scale(1.1);
+  /* Aumenta o tamanho do título ao passar o mouse */
+  transition: transform
+    0.3s ease;
+  /* Faz a transição suave do aumento */
+  text-align: center 0.3 s ease;
+}
+.card:hover strong {
+  color: #1DD3B0;
+  /* A cor muda para verde-água */
+}
 
-  input, textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    background-color: #1E1E24;
-    color: #FFF8F0;
-    border: 1px solid #FFCF99;
-    border-radius: 6px;
-  }
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #1E1E24;
+  color: #FFF8F0;
+  border: 1px solid #FFCF99;
+  border-radius: 6px;
+}
 
-  button {
-    background-color: #1DD3B0;
-    color: #1E1E24;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
+button {
+  background-color: #1DD3B0;
+  color: #1E1E24;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
-  footer {
-    text-align: center;
-    color: #FFCF99;
-    padding: 30px 20px;
-    border-top: 1px solid #854798;
-  }
-  .menu-link {
-    color: #FFCF99; 
-    text-decoration: none; 
-    font-size: 20px; 
-    font-weight: 600; 
-    transition: color 0.3s ease;
-  }
-  .menu-link:hover {
-    color: #1DD3B0; /* A cor muda para verde-água */
-  }
-  html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main, section {
-    flex: 1;
-  }
-  li {
-    margin: 10px 0;
-  }
-  section a {
-    display: flex;
-    justify-content: center;
-  }
-  
+footer {
+  text-align: center;
+  color: #FFCF99;
+  padding: 30px 20px;
+  border-top: 1px solid #854798;
+}
+
+.menu-link {
+  color: #FFCF99;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block; /* necessário pro transform funcionar bem */
+}
+
+.menu-link:hover {
+  color: #1DD3B0;
+  /* A cor muda para verde-água */ 
+  transition: color 0.3s ease;
+  /* Faz a transição suave da cor */
+  transform: scale(1.2); /* aumenta 10% */
+  transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main,
+section {
+  flex: 1;
+}
+
+li {
+  margin: 10px 0;
+}
+
+section a {
+  display: flex;
+  justify-content: center;
+}

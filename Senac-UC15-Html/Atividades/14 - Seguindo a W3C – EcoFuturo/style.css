@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E24;
+    color: #FFF8F0;
+  }
+footer {
+    text-align: center;
+    color: #FFCF99;
+    padding: 30px 20px;
+    border-top: 1px solid #854798;
+  }
