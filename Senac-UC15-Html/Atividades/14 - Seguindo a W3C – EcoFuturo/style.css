@@ -71,7 +71,7 @@ h3 {
   max-width: 1200px;
   padding: 20px;
   box-sizing: border-box;
-  
+
 }
 
 .card {
@@ -91,7 +91,9 @@ h3 {
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, text-align 0.3s ease;
 }
+
 .box-info {
   display: flex;
   flex-direction: column;
@@ -99,19 +101,23 @@ h3 {
   justify-content: center;
   text-align: center;
   margin-bottom: 20px;
-  font-weight:bold ;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, text-align 0.3s ease;
 }
+
 .card p {
   margin: 10px 0;
   font-size: 16px;
   color: #000000;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, text-align 0.3s ease;
 }
+
 .card:hover h3 {
   transform: scale(1.1);
-  color: #d6e419;
+  color: #9BC53D;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+  transition: transform 0.3s ease, box-shadow 0.3s ease, text-align 0.3s ease;
 }
 
 .card:hover strong {
@@ -141,10 +147,11 @@ button {
   border: none;
   color: #9bac9e;
   border-radius: 100px;
-box-shadow: #000000 0px 0px 5px 0px;
+  box-shadow: #000000 0px 0px 5px 0px;
   cursor: pointer;
   margin-top: 20px;
 }
+
 /*.imagem {
   position: absolute;
   top: 0;
