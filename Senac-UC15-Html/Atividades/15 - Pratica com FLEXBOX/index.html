@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site com Menu Lateral como Dropbox</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html" class="menu-link">Sobre a ONG</a></li>
+            <li><a href="pratica.html" class="menu-link">Projetos</a></li>
+            <li><a href="custo.html" class="menu-link">Contato</a></li>
+          </ul>
+        </nav>
+      </header>    
+    <!-- Menu de navegação lateral -->
+    <div class="side-nav">
+        <div class="nav-dot active" data-section="section1"></div>
+        <span class="scroll-indicator">Introdução</span>
+        
+        <div class="nav-dot" data-section="section2"></div>
+        <span class="scroll-indicator">Recursos</span>
+        
+        <div class="nav-dot" data-section="section4"></div>
+        <span class="scroll-indicator">Contato</span>
+    </div>
+    
+    <!-- Seções da página -->
+    <section id="section1" class="section">
+        <h1>O que é <strong>Inteligência Artificial?</strong></h1>
+        <p>A Inteligência Artificial (IA) é um campo da ciência da computação que busca criar sistemas capazes de simular a inteligência humana. Ela envolve aprendizado, reconhecimento de padrões, tomada de decisões e adaptação.</p>
+        <p>Ela é capaz até mesmo de fazer imagens como essa a seguir:</p>
+        <img src="img\Guerreiro nas Montanhas ao Entardecer.png" alt="img IA" height="300" width="500">
+        <sub>Imagem gerada por IA</sub>
+    </section>
+    
+    <section id="section2" class="section">
+        <h1>Nossos Recursos</h1>
+        <p>Conheça tudo o que oferecemos</p>
+    </section>
+    
+    <section id="section4" class="section">
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato com nossa equipe</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

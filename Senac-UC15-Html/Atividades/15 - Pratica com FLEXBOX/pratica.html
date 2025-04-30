@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site com Menu Lateral como Dropbox</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html" class="menu-link">Sobre a ONG</a></li>
+            <li><a href="#sobre" class="menu-link">Projetos</a></li>
+            <li><a href="#footer" class="menu-link">Contato</a></li>
+          </ul>
+        </nav>
+      </header>    
+    <!-- Menu de navegação lateral -->
+    <div class="side-nav">
+        <div class="nav-dot active" data-section="section1"></div>
+        <span class="scroll-indicator">Home</span>
+        
+        <div class="nav-dot" data-section="section2"></div>
+        <span class="scroll-indicator">Recursos</span>
+        
+        <div class="nav-dot" data-section="section3"></div>
+        <span class="scroll-indicator">Planos</span>
+        
+        <div class="nav-dot" data-section="section4"></div>
+        <span class="scroll-indicator">Contato</span>
+    </div>
+    
+    <!-- Seções da página -->
+    <section id="section1" class="section">
+        <h1>Página Inicial</h1>
+        <p>Role para baixo ou clique nos pontos à direita</p>
+    </section>
+    
+    <section id="section2" class="section">
+        <h1>Nossos Recursos</h1>
+        <p>Conheça tudo o que oferecemos</p>
+    </section>
+    
+    <section id="section3" class="section">
+        <h1>Planos e Preços</h1>
+        <p>Escolha o melhor para você</p>
+    </section>
+    
+    <section id="section4" class="section">
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato com nossa equipe</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
