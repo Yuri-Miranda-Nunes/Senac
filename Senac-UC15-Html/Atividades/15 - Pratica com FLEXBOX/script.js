@@ -47,29 +47,3 @@ window.addEventListener('resize', setRealVh);
 window.addEventListener('load', () => {
     document.querySelector('.nav-dot').classList.add('active');
 });
- // Atualiza o gradiente quando a janela é redimensionada
- function updateGradient() {
-    const penultimaSection = document.querySelector('#section3');
-    const ultimaSection = document.querySelector('#section4');
-    
-    // Obtém a cor computada da penúltima seção
-    const styles = window.getComputedStyle(penultimaSection);
-    const bgColor = styles.backgroundColor;
-    
-    // Atualiza as variáveis CSS
-    document.documentElement.style.setProperty('--color-penultima', bgColor);
-    
-    // Se quiser manter uma cor fixa para a última seção:
-    // document.documentElement.style.setProperty('--color-ultima', '#fff8e6');
-}
-
-// Inicialização
-window.addEventListener('DOMContentLoaded', () => {
-    setRealVh();
-    updateGradient();
-});
-
-window.addEventListener('resize', () => {
-    setRealVh();
-    updateGradient();
-});

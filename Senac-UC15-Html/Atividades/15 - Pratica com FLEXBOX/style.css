@@ -3,13 +3,9 @@ body {
     background-color: linear-gradient(bottom, #f0f0f0, #e0e0e0);
     color: #333;
 }
-
 :root {
     --vh: 1vh;
-    --color-penultima: #0d0d0d;
-    /* Cor da penúltima seção */
-    --color-ultima: #fff8e6;
-    /* Cor da última seção */
+    --menu-width: 60px;
 }
 
 * {
@@ -17,6 +13,14 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #262730;
+    padding: 20px 0;
+  }
 
 .section {
     width: 100%;
@@ -31,39 +35,63 @@ body {
     position: relative;
 }
 
-/* Cores das seções */
-#section1 {
-    background: #0061ff;
-    color: white;
+/* Menu lateral direito */
+.side-nav {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-#section2 {
-    background: var(--color-penultima);
-    color: white;
-}
-/* Última seção com gradiente */
-#section4 {
-    background: linear-gradient(to bottom,
-            var(--color-penultima) 0%,
-            var(--color-penultima) 20%,
-            var(--color-ultima) 100%);
-    color: #333;
-    /* Cor do texto ajustada para o novo fundo */
+.nav-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-/* Ajuste para garantir legibilidade */
-.content {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
-    border-radius: 10px;
-    max-width: 80%;
+.nav-dot:hover, .nav-dot.active {
+    background-color: #0061ff;
+    border-color: white;
+    transform: scale(1.3);
+}
 
-    header {
-        background-color: #262730;
-        padding: 20px 0;
+/* Indicador de scroll (opcional) */
+.scroll-indicator {
+    position: fixed;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #0061ff;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.nav-dot:hover + .scroll-indicator {
+    opacity: 1;
+}
+
+/* Cores de exemplo para seções */
+#section1 { background: #262730; color: white; }
+#section2 { background: #262730; color: white; }
+#section4 { background: #262730; color: white; }
+
+/* Responsivo - esconde menu em telas pequenas */
+@media (max-width: 768px) {
+    .side-nav {
+        display: none;
     }
 }
-
 .menu {
     list-style: none;
     display: flex;
