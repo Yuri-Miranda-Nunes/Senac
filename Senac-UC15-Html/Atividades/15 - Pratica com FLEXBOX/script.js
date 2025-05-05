@@ -34,10 +34,37 @@ function initSideNav() {
     });
 }
 
+// Interatividade dos cards de tecnologia
+function initTechCards() {
+    const cards = document.querySelectorAll('.tech-card');
+    const visualizations = document.querySelectorAll('.tech-visualization');
+    
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            // Remove a classe active de todos os cards e visualizações
+            cards.forEach(c => c.classList.remove('active'));
+            visualizations.forEach(v => v.classList.remove('active'));
+            
+            // Adiciona active ao card clicado
+            this.classList.add('active');
+            
+            // Mostra a visualização correspondente
+            const techId = this.getAttribute('data-tech');
+            document.getElementById(`vis-${techId}`).classList.add('active');
+        });
+    });
+    
+    // Ativa o primeiro card por padrão
+    if (cards.length > 0) {
+        cards[0].click();
+    }
+}
+
 // Inicialização
 window.addEventListener('DOMContentLoaded', () => {
     setRealVh();
     initSideNav();
+    initTechCards();
     window.addEventListener('scroll', handleScroll);
 });
 
