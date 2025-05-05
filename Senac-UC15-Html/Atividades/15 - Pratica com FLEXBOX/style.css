@@ -12,7 +12,8 @@ body {
     --card-inactive: #F9DBBD;
     --bg-color: #262730;
     --text-color: #F9DBBD;
-    --highlight-color: #F9DBBD;
+    --highlight-color: #D81E5B;
+    --border-color: rgba(216, 30, 91, 0.3);
 }
 
 * {
@@ -132,7 +133,7 @@ header {
 }
 
 strong {
-    color: var(--highlight-color);
+    color: var(--text-color);
 }
 
 /* Container de tecnologias */
@@ -178,7 +179,7 @@ strong {
     color: var(--card-active);
 }
 .tech-card h3 {
-    color: var(--highlight-color);
+    color: var(--text-color);
     margin-bottom: 10px;
 }
 
