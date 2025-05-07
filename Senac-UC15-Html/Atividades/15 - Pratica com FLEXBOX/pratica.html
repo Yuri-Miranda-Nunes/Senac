@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR" style="scroll-behavior: smooth;">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Site com Menu Lateral como Dropbox</title>
+    <link rel="stylesheet" href="pratica.css">
+    <title>IA e Carros Autônomos</title>
 </head>
+
 <body>
     <header>
         <nav>
-          <ul class="menu">
-            <li><a href="index.html" class="menu-link">Sobre a ONG</a></li>
-            <li><a href="#sobre" class="menu-link">Projetos</a></li>
-            <li><a href="#footer" class="menu-link">Contato</a></li>
-          </ul>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-link">Sobre a ONG</a></li>
+                <li><a href="pratica.html" class="menu-link">Projetos</a></li>
+                <li><a href="custo.html" class="menu-link">Contato</a></li>
+            </ul>
         </nav>
-      </header>    
+    </header>
+
     <!-- Menu de navegação lateral -->
     <div class="side-nav">
         <div class="nav-dot active" data-section="section1"></div>
         <span class="scroll-indicator">Home</span>
-        
+
         <div class="nav-dot" data-section="section2"></div>
-        <span class="scroll-indicator">Recursos</span>
+        <span class="scroll-indicator">Tecnologia</span>
     </div>
-    
-    <!-- Seções da página -->
+
+    <!-- Seção 1: Introdução -->
     <section id="section1" class="section">
-        <h1>Carros Autônomos e a Inteligência Artificial</h1>
-        <p>A IA permite que veículos autônomos percebam o ambiente ao redor, tomem decisões em tempo real e conduzam com segurança, utilizando sensores, câmeras e algoritmos de aprendizado profundo.</p>
+        <h2>Carros Autônomos e a Inteligência Artificial</h2>
+        <div class="colunaPag3">
+            <div class="coluna">
+                <section class="colunaSectiion">
+                    <h3>O que são Carros Autônomos?</h3>
+                    <p>Carros autônomos são veículos que podem se deslocar sem intervenção humana, utilizando sensores e
+                        IA para
+                        navegar.</p>
+                    <p>Esses carros utilizam uma combinação de tecnologias, incluindo aprendizado de máquina, visão
+                        computacional
+                        e mapeamento em tempo real.</p>
+                </section>
+                <section class="colunaSectiion">
+                    <h3>Como a IA controla os veículos</h3>
+                    <p>A Inteligência Artificial analisa dados em tempo real captados por sensores, câmeras e radares do
+                        carro para tomar decisões seguras.</p>
+                    <p>Ela detecta objetos, identifica faixas, sinais de trânsito e até prevê o comportamento de outros
+                        veículos e pedestres.</p>
+                </section>
+
+                <section class="colunaSectiion">
+                    <h3>Desafios e limitações atuais</h3>
+                    <p>Apesar dos avanços, os carros autônomos ainda enfrentam dificuldades em ambientes imprevisíveis,
+                        como estradas em más condições ou clima extremo.</p>
+                    <p>Também existem questões éticas e legais sobre responsabilidade em caso de falhas ou acidentes.
+                    </p>
+                </section>
+            </div>
+            <div>
+                <img class="imgpag2"
+                    src="https://img.odcdn.com.br/wp-content/uploads/2023/12/Destaque-Veiculos-autonomos.jpg" alt="">
+            </div>
+        </div>
     </section>
-    
+
     <section id="section2" class="section">
-        <div>  <!-- Div da esquerda -->
-            <h1>Componentes do sistema de IA nos carros:</h1>
-            <ul>
-                <li>Sensores (LIDAR, radar, câmeras)</li>
-                <li>Mapeamento e navegação</li>
-                <li>Tomada de decisão com redes neurais</li>
-            </ul>
-        </div>
-        <div>
-            <h1>Nossos Recursos</h1>
-            <ul>
-                <li>Redução de acidentes causados por erro humano</li>
-                <li>Maior mobilidade para pessoas com deficiência</li>
-                <li>Transformação no setor de transporte e logística</li>
-            </ul>
+        <h2>Impacto na sociedade</h2>
+        <div class="colunaPag3">
+            <div>
+                <img class="imgpag2"
+                    src="https://i0.statig.com.br/bancodeimagens/5u/aw/g9/5uawg9h06vlk51ilv9bmc2vp9.jpg" alt="">
+            </div>
+            <div class="coluna">
+                <section class="colunaSectiion">
+                    <h3>Redução de acidentes causados por erro humano</h3>
+                    <p>Com a automação da direção, elimina-se grande parte dos acidentes provocados por distração, fadiga ou imprudência dos motoristas humanos.</p>
+                    <p>Algoritmos de IA reagem com precisão e em milissegundos a situações de risco, contribuindo para um trânsito mais seguro.</p>
+                </section>
+                <section class="colunaSectiion">
+                    <h3>Maior mobilidade para pessoas com deficiência</h3>
+                    <p>Veículos autônomos oferecem autonomia para pessoas com mobilidade reduzida ou limitações visuais, permitindo deslocamento sem depender de terceiros.</p>
+                    <p>Isso promove inclusão social, facilitando o acesso ao trabalho, à educação e aos serviços de saúde.</p>
+                </section>
+                <section class="colunaSectiion">
+                    <h3>Transformação no setor de transporte e logística</h3>
+                    <p>Empresas de transporte e entrega estão investindo em frotas autônomas para reduzir custos operacionais e aumentar a eficiência.</p>
+                    <p>A automação pode revolucionar a logística, permitindo entregas 24 horas por dia, com menor necessidade de pausas humanas.</p>
+                </section>
+            </div>
+            
         </div>
     </section>
+
     <script src="script.js"></script>
 </body>
+
 </html>
