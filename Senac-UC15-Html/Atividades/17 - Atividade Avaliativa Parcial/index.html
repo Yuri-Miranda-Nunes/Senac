@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskZen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#home" class="logo"><i class="fab fa-taskzen"></i> TaskZen</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#features">Guia</a>
+            <a href="#plans">Requisitos</a>
+            <a href="#contact">Fale conosco</a>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="#home">Início</a>
+        <a href="#features">Recursos</a>
+        <a href="#plans">Planos</a>
+        <a href="#contact">Contato</a>
+    </div>
+    <section id="home" class="full-screen">
+        <div class="home-content">
+            <h1>Introdução</h1>
+            <p>O <strong>TaskZen</strong> é um aplicativo de gerenciamento de tarefas criado para quem deseja organizar
+                suas atividades de forma prática e sem estresse. Com uma interface limpa e intuitiva, você pode focar no
+                que importa: realizar suas tarefas com tranquilidade.</p>
+            <div class="home-buttons">
+                <a href="#" class="btn-primary">Experimente grátis</a>
+                <a href="#" class="btn-secondary">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="full-screen">
+        <h2>Passo a Passo</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-sync-alt"></i>
+                <h3>Crie sua conta</h3>
+                <p>Acesse o site, clique em “Cadastrar” e preencha os dados solicitados.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-lock"></i>
+                <h3>Adicione tarefas</h3>
+                <p>Após o login, clique em “Nova Tarefa”, defina título, descrição e prazo.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Organize e conclua</h3>
+                <p>Use os filtros para visualizar tarefas por status e marque como concluída quando terminar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans" class="full-screen">
+        <h2>Requisitos</h2>
+        <div class="plans-container">
+            <div class="plan-card">
+                <h3>Requisitos Técnicos</h3>
+                <ul>
+                    <li>Dispositivo com acesso à internet (PC, tablet ou smartphone);</li>
+                    <li>Navegador atualizado (Google Chrome, Mozilla Firefox, Safari ou Edge);</li>
+                    <li>Resolução mínima recomendada: 360px x 640px;</li>
+                    <li>JavaScript habilitado no navegador.</li>
+                </ul>
+            </div>
+            <div class="plan-card">
+                <h3>Requisitos de Conta</h3>
+                <ul>
+                    <li>5TB de armazenamento</li>
+                    <li>Controles administrativos</li>
+                    <li>Relatórios de atividade</li>
+                    <li>Suporte 24/7</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="full-screen">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Fale conosco</h2>
+                <p>Tem alguma dúvida? Nossa equipe está pronta para ajudar.</p>
+                <div class="contact-methods">
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 1234-5678</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>suporte@TaskZen.com</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>São Paulo, Brasil</span>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="btn-primary">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#"><i class="fab fa-taskzen"></i> TaskZen</a>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Produto</h4>
+                    <a href="#">Recursos</a>
+                    <a href="#">Planos</a>
+                    <a href="#">Download</a>
+                </div>
+                <div>
+                    <h4>Empresa</h4>
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">Imprensa</a>
+                </div>
+                <div>
+                    <h4>Suporte</h4>
+                    <a href="#">Central de ajuda</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Privacidade</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 TaskZen. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

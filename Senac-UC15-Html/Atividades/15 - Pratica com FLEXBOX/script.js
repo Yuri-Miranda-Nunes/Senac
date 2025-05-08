@@ -1,10 +1,9 @@
-// Correção para altura mobile (100vh)
+
 function setRealVh() {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 
-// Ativa o menu lateral conforme scroll
 function handleScroll() {
     const sections = document.querySelectorAll('.section');
     const navDots = document.querySelectorAll('.nav-dot');
@@ -17,8 +16,6 @@ function handleScroll() {
         }
     });
 }
-
-// Scroll suave para o menu lateral
 function initSideNav() {
     document.querySelectorAll('.nav-dot').forEach(dot => {
         dot.addEventListener('click', function() {
