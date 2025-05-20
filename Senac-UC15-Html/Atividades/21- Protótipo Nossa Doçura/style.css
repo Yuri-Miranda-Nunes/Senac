@@ -1,0 +1,44 @@
+:root {
+    --primeira-cor: #051A20;
+    --segunda-cor: #785424;
+    --terceira-cor: #34562C;
+    --quarta-cor: #6EA089;
+    --quinta-cor: #C9EADB;
+    --sexta-cor: #53849C;
+    --sétima-cor: #DCEBFA;
+}
+/*header*/
+header {
+    background-color: var(--primeira-cor);
+    padding: 20px;
+    color: var(--sétima-cor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header img {
+    width: 200px;
+    height: auto;
+}
+.a-nav {
+    display: none;
+}
+.a-hamb {
+    height: 20px;
+    width: 20px;
+}
+
+@media (min-width: 768px) {
+    .a-nav {
+        display: inline;
+    }
+    .a-hamb {
+        display: none;
+    }
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+}
