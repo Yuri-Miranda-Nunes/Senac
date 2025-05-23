@@ -1,52 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monte sua Salada</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-green-50 text-gray-800 font-sans p-4">
+  <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-2xl p-6">
+    <form id="saladaForm" class="space-y-6">
+      <h2 class="text-2xl font-bold text-center text-green-700">Monte sua Salada</h2>
+
+      <!-- Tamanho -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Tamanho</h3>
+        <label class="block"><input type="radio" name="tamanho" value="P" checked> Pequena (350g) - R$20,00</label>
+        <label class="block"><input type="radio" name="tamanho" value="G"> Grande (700g) - R$25,00</label>
+      </div>
+
+      <!-- Proteína -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Proteína</h3>
+        <label class="block"><input type="radio" name="proteina" value="TILÁPIA"> Tilápia</label>
+        <label class="block"><input type="radio" name="proteina" value="SALMÃO"> Salmão</label>
+        <label class="block"><input type="radio" name="proteina" value="FRANGO"> Frango da casa</label>
+        <label class="block"><input type="radio" name="proteina" value="ATUM"> Atum</label>
+        <label class="block"><input type="radio" name="proteina" value="GRAO"> Grão de bico</label>
+      </div>
+
+      <!-- Queijos -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Queijos</h3>
+        <label class="block"><input type="checkbox" name="queijo" value="Muçarela"> Muçarela</label>
+      </div>
+
+      <!-- Carboidratos -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Carboidratos (máx. 2)</h3>
+        <label class="block"><input type="checkbox" name="carboidratos" value="macarraoSG"> Macarrão sem glúten (+1,00)</label>
+        <label class="block"><input type="checkbox" name="carboidratos" value="macarrao"> Macarrão</label>
+        <label class="block"><input type="checkbox" name="carboidratos" value="batata"> Batata inglesa (+1,00)</label>
+        <label class="block"><input type="checkbox" name="carboidratos" value="crouton"> Crouton</label>
+      </div>
+
+      <!-- Complementos -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Complementos (máx. 5)</h3>
+        <label class="block"><input type="checkbox" name="complementos" value="Tomate"> Tomate</label>
+        <label class="block"><input type="checkbox" name="complementos" value="Cenoura"> Cenoura</label>
+        <label class="block"><input type="checkbox" name="complementos" value="Pepino"> Pepino</label>
+        <label class="block"><input type="checkbox" name="complementos" value="Milho"> Milho</label>
+        <label class="block"><input type="checkbox" name="complementos" value="Beterraba"> Beterraba</label>
+        <label class="block"><input type="checkbox" name="complementos" value="Tomate seco"> Tomate seco</label>
+      </div>
+
+      <!-- Folhas -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Folhas</h3>
+        <label class="block"><input type="checkbox" name="folhas" value="Alface"> Alface</label>
+        <label class="block"><input type="checkbox" name="folhas" value="Rúcula"> Rúcula</label>
+        <label class="block"><input type="checkbox" name="folhas" value="Agrião"> Agrião</label>
+      </div>
+
+      <!-- Molhos -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Molhos</h3>
+        <label class="block"><input type="radio" name="molho" value="azeite"> Azeite (+1,00)</label>
+        <label class="block"><input type="radio" name="molho" value="alho"> Molho de alho</label>
+        <label class="block"><input type="radio" name="molho" value="mostarda"> Mostarda e mel</label>
+        <label class="block"><input type="radio" name="molho" value="especial"> Especial da casa</label>
+      </div>
+
+      <!-- Extras -->
+      <div>
+        <h3 class="text-lg font-semibold text-green-600">Extras</h3>
+        <label class="block"><input type="checkbox" name="extras" value="castanhas"> Mix de castanhas (+3,00)</label>
+        <label class="block"><input type="checkbox" name="extras" value="linhaça"> Linhaça-chia (+1,00)</label>
+        <label class="block"><input type="checkbox" name="extras" value="gergelim"> Gergelim (+0,50)</label>
+        <label class="block"><input type="checkbox" name="extras" value="molhoExtra"> Molho extra (+3,00)</label>
+      </div>
+
+      <!-- Preço e botão -->
+      <div class="text-center">
+        <p class="text-xl font-bold">Preço total: R$ <span id="precoTotal">20,00</span></p>
+        <button type="submit" class="mt-4 bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl">Finalizar Pedido</button>
+      </div>
+    </form>
+
+    <div id="resumoPedido" class="mt-6 bg-gray-100 p-4 rounded-xl"></div>
+  </div>
+
+<script>
+  function formatarPreco(valor) {
+    return valor.toFixed(2).replace('.', ',');
+  }
+
+  function calcularPreco() {
+    const tamanho = document.querySelector('input[name="tamanho"]:checked')?.value;
+    const proteina = document.querySelector('input[name="proteina"]:checked')?.value;
+    const carboidratos = Array.from(document.querySelectorAll('input[name="carboidratos"]:checked')).map(cb => cb.value);
+    const molho = document.querySelector('input[name="molho"]:checked')?.value;
+    const extras = Array.from(document.querySelectorAll('input[name="extras"]:checked')).map(cb => cb.value);
+
+    let preco = tamanho === "G" ? 25.0 : 20.0;
+
+    const precosProteina = {
+      P: { TILÁPIA: 8, SALMÃO: 10, FRANGO: 5, ATUM: 4, GRAO: 2 },
+      G: { TILÁPIA: 14, SALMÃO: 17, FRANGO: 10, ATUM: 8, GRAO: 4 }
+    };
+    if (proteina) preco += precosProteina[tamanho][proteina];
+
+    carboidratos.forEach(c => {
+      if (c === "macarraoSG" || c === "batata") preco += 1;
+    });
+
+    if (molho === "azeite") preco += 1;
+
+    extras.forEach(e => {
+      if (e === "castanhas") preco += 3;
+      if (e === "linhaça") preco += 1;
+      if (e === "gergelim") preco += 0.5;
+      if (e === "molhoExtra") preco += 3;
+    });
+
+    document.getElementById("precoTotal").textContent = formatarPreco(preco);
+  }
+
+  function limitarCheckboxes(nomeCampo, limite) {
+    const checkboxes = document.querySelectorAll(`input[name="${nomeCampo}"]`);
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', () => {
+        const selecionados = Array.from(checkboxes).filter(cb => cb.checked);
+        if (selecionados.length > limite) {
+          checkbox.checked = false;
+          alert(`Você só pode escolher até ${limite} ${nomeCampo}.`);
+        }
+        calcularPreco();
+      });
+    });
+  }
+
+  window.onload = () => {
+    calcularPreco();
+    limitarCheckboxes("carboidratos", 2);
+    limitarCheckboxes("complementos", 5);
+  };
+
+  document.querySelectorAll("input").forEach(input => {
+    input.addEventListener("change", calcularPreco);
+  });
+
+  document.getElementById("saladaForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const formData = new FormData(this);
+    const getAll = name => formData.getAll(name).join(", ") || "Nenhum";
+
+    const resumo = `
+      <h3>Resumo do Pedido</h3>
+      <p><strong>Tamanho:</strong> ${formData.get("tamanho")}</p>
+      <p><strong>Proteína:</strong> ${formData.get("proteina")}</p>
+      <p><strong>Queijos:</strong> ${getAll("queijo")}</p>
+      <p><strong>Carboidratos:</strong> ${getAll("carboidratos")}</p>
+      <p><strong>Complementos:</strong> ${getAll("complementos")}</p>
+      <p><strong>Folhas:</strong> ${getAll("folhas")}</p>
+      <p><strong>Molho:</strong> ${formData.get("molho")}</p>
+      <p><strong>Extras:</strong> ${getAll("extras")}</p>
+      <p><strong>Preço Final:</strong> R$ ${document.getElementById("precoTotal").textContent}</p>
+    `;
+    document.getElementById("resumoPedido").innerHTML = resumo;
+  });
+</script>
+
 </body>
-<main>
-    <section>
-        <h1>Titulo</h1>
-        <p>Paragrafo</p>
-        <div class="img-flex">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjeyFtwyTk91wjh6Bxybm8bWH4xxa78P3Zyg&s" alt="">
-            <ul>
-                <li>Lista 1</li>
-                <li>Lista 2</li>
-                <li>Lista 3</li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <h1></h1>
-        <p></p>
-        <div class="img-flex">
-            <img src="" alt="">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </section>
-        <section>
-            <h1></h1>
-            <p></p>
-            <div class="img-flex">
-                <img src="" alt="">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-<script src="script.js"></script>
+
 </html>
