@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Média Aritmética</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    input[type="number"] {
+      width: 100px;
+      padding: 5px;
+      margin: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora de Média Aritmética</h2>
+    <p>Informe dois números inteiros:</p>
+    <input type="number" id="numero1" placeholder="Número 1" required>
+    <input type="number" id="numero2" placeholder="Número 2" required>
+    <br>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <div id="resultado"></div>
+  </div>
+
+  <script>
+    function calcularMedia() {
+      const n1 = parseInt(document.getElementById("numero1").value);
+      const n2 = parseInt(document.getElementById("numero2").value);
+
+      if (isNaN(n1) || isNaN(n2)) {
+        document.getElementById("resultado").innerText = "Por favor, insira dois números válidos.";
+        return;
+      }
+
+      const media = (n1 + n2) / 2;
+      document.getElementById("resultado").innerText = `A média aritmética é: ${media}`;
+    }
+  </script>
+</body>
+</html>
