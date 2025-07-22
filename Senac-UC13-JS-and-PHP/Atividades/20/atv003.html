@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Dólar para Real</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e7f0f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    input[type="number"] {
+      width: 120px;
+      padding: 8px;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Conversor de Dólar para Real</h2>
+    <p>Informe o valor em dólares (USD):</p>
+    <input type="number" id="dolar" placeholder="Ex: 100" step="0.01" min="0">
+    <br>
+    <button onclick="converter()">Converter</button>
+    <div id="resultado"></div>
+  </div>
+
+  <script>
+    function converter() {
+      const taxaCambio = 5.57; // você pode atualizar com a taxa atual
+      const valorDolar = parseFloat(document.getElementById("dolar").value);
+
+      if (isNaN(valorDolar) || valorDolar < 0) {
+        document.getElementById("resultado").innerText = "Digite um valor válido em dólares.";
+        return;
+      }
+
+      const valorReal = valorDolar * taxaCambio;
+      document.getElementById("resultado").innerText =
+        `US$ ${valorDolar.toFixed(2)} equivale a R$ ${valorReal.toFixed(2)}`;
+    }
+  </script>
+
+</body>
+</html>
