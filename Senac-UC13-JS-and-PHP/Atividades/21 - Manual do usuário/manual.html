@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuário - Sistema Unificado de Cadastros</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary-color: #64748b;
+            --accent-color: #0ea5e9;
+            --success-color: #059669;
+            --warning-color: #d97706;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --text-muted: #94a3b8;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-accent: #f1f5f9;
+            --border-color: #e2e8f0;
+            --border-light: #f1f5f9;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius-sm: 0.375rem;
+            --radius-md: 0.5rem;
+            --radius-lg: 0.75rem;
+            --radius-xl: 1rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            border-radius: var(--radius-xl);
+            color: white;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+            opacity: 0.1;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+            font-weight: 300;
+        }
+
+        /* Table of Contents */
+        .toc {
+            background: var(--bg-primary);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-light);
+        }
+
+        .toc h2 {
+            font-size: 1.75rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .toc h2::before {
+            content: '📚';
+            font-size: 1.5rem;
+        }
+
+        .toc ul {
+            list-style: none;
+        }
+
+        .toc > ul > li {
+            margin-bottom: 0.75rem;
+        }
+
+        .toc ul ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .toc ul ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-md);
+            display: inline-block;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .toc a:hover {
+            background: var(--bg-accent);
+            color: var(--primary-color);
+            transform: translateX(0.25rem);
+        }
+
+        .toc > ul > li > a {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Content Sections */
+        .content {
+            background: var(--bg-primary);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+            border: 1px solid var(--border-light);
+        }
+
+        .section {
+            padding: 3rem;
+            border-bottom: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section:hover {
+            background: var(--bg-secondary);
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 2rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+        }
+
+        .section h3 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin: 2rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section h3::before {
+            content: '▶';
+            color: var(--accent-color);
+            font-size: 0.875rem;
+        }
+
+        .section p {
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .section p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Lists */
+        .section ul, .section ol {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .section li {
+            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            position: relative;
+        }
+
+        .section ul li::marker {
+            color: var(--accent-color);
+        }
+
+        .section ol li::marker {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Definition Lists */
+        .section dl {
+            margin: 1.5rem 0;
+        }
+
+        .section dt {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .section dd {
+            margin-left: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            padding: 0.75rem 1rem;
+            background: var(--bg-accent);
+            border-radius: var(--radius-md);
+            border-left: 3px solid var(--accent-color);
+        }
+
+        /* Links */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        .section a {
+            background: linear-gradient(120deg, var(--accent-color) 0%, var(--accent-color) 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.125rem;
+            background-position: 0 100%;
+            transition: background-size 0.25s ease-in;
+        }
+
+        .section a:hover {
+            background-size: 100% 100%;
+            color: white;
+            text-decoration: none;
+            padding: 0.125rem 0.5rem;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Cards for special sections */
+        .card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow-sm);
+        }
+
+        .faq-question {
+            background: var(--bg-accent);
+            padding: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .faq-question::before {
+            content: '❓';
+            font-size: 1.25rem;
+        }
+
+        .faq-answer {
+            padding: 1.5rem;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header-subtitle {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 2rem 1.5rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .section h3 {
+                font-size: 1.25rem;
+            }
+
+            .toc {
+                padding: 1.5rem;
+            }
+
+            .back-to-top {
+                bottom: 1rem;
+                right: 1rem;
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            .header {
+                background: none;
+                color: black;
+            }
+
+            .back-to-top {
+                display: none;
+            }
+
+            .section {
+                page-break-inside: avoid;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+
+        /* Animation for smooth loading */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .section:nth-child(even) {
+            animation-delay: 0.1s;
+        }
+
+        .section:nth-child(odd) {
+            animation-delay: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Manual de Usuário</h1>
+            <p class="header-subtitle">Sistema Unificado de Cadastros</p>
+        </header>
+        
+        <nav class="toc">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#introducao">🚀 Introdução</a></li>
+                <li><a href="#acesso-e-login">🔐 Acesso e Login</a></li>
+                <li><a href="#requisitos-do-sistema">⚙️ Requisitos do Sistema</a></li>
+                <li><a href="#navegacao-na-aplicacao">🧭 Navegação na Aplicação</a></li>
+                <li><a href="#funcionalidades-principais">⭐ Funcionalidades Principais</a>
+                    <ul>
+                        <li><a href="#cadastro-de-produtos">📦 Cadastro de Produtos</a></li>
+                        <li><a href="#cadastro-de-pessoas">👥 Cadastro de Pessoas</a></li>
+                        <li><a href="#listagem-de-produtos">📋 Listagem de Produtos</a></li>
+                        <li><a href="#listagem-de-pessoas">📄 Listagem de Pessoas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#personalizacao">🎨 Personalização</a></li>
+                <li><a href="#solucao-de-problemas-comuns">🛠️ Solução de Problemas Comuns</a></li>
+                <li><a href="#seguranca-e-privacidade">🔒 Segurança e Privacidade</a></li>
+                <li><a href="#atualizacoes">🔄 Atualizações</a></li>
+                <li><a href="#faqs">❓ FAQs</a></li>
+                <li><a href="#suporte">📞 Suporte</a></li>
+                <li><a href="#creditos-e-licencas">📜 Créditos e Licenças</a></li>
+                <li><a href="#apendice">📚 Apêndice</a></li>
+            </ul>
+        </nav>
+        
+        <main class="content">
+            <section class="section" id="introducao">
+                <h2>Introdução</h2>
+                <div class="card">
+                    <p><strong>Objetivo da aplicação:</strong> Esta aplicação web é um sistema de gerenciamento unificado para cadastro e listagem de produtos e pessoas. Ela permite aos usuários cadastrar, listar, editar e excluir registros de produtos e pessoas de forma simples e intuitiva, facilitando o controle e a organização desses dados.</p>
+                </div>
+                <p><strong>Público-alvo:</strong> Este manual é destinado a usuários finais que precisam cadastrar e gerenciar produtos e pessoas no sistema, bem como a administradores que precisam manter e atualizar os dados.</p>
+                <p><strong>Visão geral da aplicação:</strong> A aplicação possui uma interface amigável com abas para diferentes funcionalidades: cadastro de produtos, cadastro de pessoas, listagem de produtos e listagem de pessoas. Cada aba contém formulários para entrada de dados e tabelas para visualização dos registros. A aplicação é projetada para ser fácil de usar, com uma navegação intuitiva e mensagens claras para o usuário.</p>
+            </section>
+            
+            <section class="section" id="acesso-e-login">
+                <h2>Acesso e Login</h2>
+                <p><strong>Como acessar:</strong> Para acessar a aplicação, abra o arquivo index.php em um navegador web, desde que o servidor web esteja configurado corretamente com suporte a PHP e MySQL. Se a aplicação estiver hospedada em um servidor remoto, acesse-a através do URL fornecido pelo administrador do sistema.</p>
+                <div class="card">
+                    <p><strong>Criação de conta:</strong> Esta aplicação não possui funcionalidade de criação de conta. Ela é acessível a todos os usuários sem necessidade de autenticação.</p>
+                    <p><strong>Login:</strong> Não há funcionalidade de login, pois a aplicação não requer autenticação de usuários.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="requisitos-do-sistema">
+                <h2>Requisitos do Sistema</h2>
+                <p><strong>Navegadores compatíveis:</strong> Recomenda-se o uso de navegadores modernos como Google Chrome, Mozilla Firefox, Microsoft Edge ou Safari. A aplicação foi testada e funciona corretamente nestes navegadores.</p>
+                <p><strong>Resolução de tela:</strong> A aplicação é responsiva e funciona bem em diferentes tamanhos de tela, mas é otimizada para telas com largura mínima de 1024px.</p>
+                <p><strong>Requisitos de Internet:</strong> A aplicação requer uma conexão à internet estável para funcionar corretamente, pois ela interage com um banco de dados remoto.</p>
+                <div class="card">
+                    <p><strong>Tecnologias suportadas:</strong> A aplicação utiliza HTML5, CSS3, JavaScript e PHP. Ela também depende de um servidor web com suporte a PHP e um banco de dados MySQL. Além disso, utiliza a biblioteca Font Awesome para ícones.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="navegacao-na-aplicacao">
+                <h2>Navegação na Aplicação</h2>
+                <p>A interface da aplicação possui uma barra de navegação no topo da página com as seguintes abas: "Cadastrar Produtos", "Cadastrar Pessoas", "Listar Produtos" e "Listar Pessoas".</p>
+                <p>Clicar em cada aba carrega a respectiva seção da aplicação.</p>
+                <p>A aplicação é responsiva e funciona bem em diferentes tamanhos de tela, mas é otimizada para telas com largura mínima de 1024px.</p>
+            </section>
+            
+            <section class="section" id="funcionalidades-principais">
+                <h2>Funcionalidades Principais</h2>
+                
+                <h3 id="cadastro-de-produtos">Cadastro de Produtos</h3>
+                <p>Clique na aba "Cadastrar Produtos".</p>
+                <p>Você será direcionado a uma página com um formulário contendo três campos:</p>
+                <ul>
+                    <li><strong>Nome do Produto:</strong> Insira o nome do produto que deseja cadastrar (ex.: "Teclado Mecânico").</li>
+                    <li><strong>Preço:</strong> Insira o preço do produto em formato numérico (ex.: 10.99).</li>
+                    <li><strong>Quantidade:</strong> Insira a quantidade em estoque do produto em formato numérico (ex.: 100).</li>
+                </ul>
+                <div class="card">
+                    <p>Após preencher os campos, clique no botão "Cadastrar Produto" para salvar o registro. Uma mensagem de sucesso ou erro será exibida.</p>
+                </div>
+                
+                <h3 id="cadastro-de-pessoas">Cadastro de Pessoas</h3>
+                <p>Clique na aba "Cadastrar Pessoas".</p>
+                <p>Você será direcionado a uma página com um formulário contendo dois campos:</p>
+                <ul>
+                    <li><strong>Nome Completo:</strong> Insira o nome completo da pessoa (ex.: "João Silva").</li>
+                    <li><strong>Idade:</strong> Insira a idade da pessoa em formato numérico (ex.: 25).</li>
+                </ul>
+                <div class="card">
+                    <p>Após preencher os campos, clique no botão "Cadastrar Pessoa" para salvar o registro. Uma mensagem de sucesso ou erro será exibida.</p>
+                </div>
+                
+                <h3 id="listagem-de-produtos">Listagem de Produtos</h3>
+                <p>Clique na aba "Listar Produtos".</p>
+                <p>A página exibirá uma tabela com todos os produtos cadastrados, contendo as colunas: ID, Nome, Preço e Quantidade.</p>
+                <p>Para editar um produto, clique no botão "Editar" na linha correspondente. Isso abrirá um formulário preenchido com os dados atuais do produto. Faça as alterações necessárias nos campos e clique em "Atualizar Produto".</p>
+                <p>Para excluir um produto, clique no botão "Deletar" na linha correspondente. Uma janela de confirmação será exibida; clique em "OK" para confirmar a exclusão.</p>
+                
+                <h3 id="listagem-de-pessoas">Listagem de Pessoas</h3>
+                <p>Clique na aba "Listar Pessoas".</p>
+                <p>A página exibirá uma tabela com todas as pessoas cadastradas, contendo as colunas: ID, Nome e Idade.</p>
+                <p>Para editar uma pessoa, clique no botão "Editar" na linha correspondente. Isso abrirá um formulário preenchido com os dados atuais da pessoa. Faça as alterações necessárias nos campos e clique em "Salvar Alterações".</p>
+                <p>Para excluir uma pessoa, clique no botão "Excluir" na linha correspondente. Uma janela de confirmação será exibida; clique em "OK" para confirmar a exclusão.</p>
+            </section>
+            
+            <section class="section" id="personalizacao">
+                <h2>Personalização</h2>
+                <div class="card">
+                    <p>Esta aplicação não possui funcionalidades de personalização para os usuários.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="solucao-de-problemas-comuns">
+                <h2>Solução de Problemas Comuns</h2>
+                
+                <div class="card">
+                    <h3>Erros de conexão</h3>
+                    <ul>
+                        <li>Se a aplicação não carregar ou exibir erros relacionados à conexão com o banco de dados, verifique se o servidor web e o banco de dados estão funcionando corretamente.</li>
+                        <li>Certifique-se de que as credenciais de conexão ao banco de dados estejam corretas no arquivo de configuração (conexao.php).</li>
+                        <li>Verifique se o PHP e o MySQL estão instalados e configurados corretamente no servidor.</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Problemas com formulários</h3>
+                    <ul>
+                        <li>Se os formulários não enviarem ou exibirem erros, verifique se todos os campos obrigatórios estão preenchidos corretamente.</li>
+                        <li>Certifique-se de que os dados inseridos estejam no formato correto: preço e quantidade devem ser números, e idade também deve ser um número.</li>
+                        <li>Se o erro persistir, verifique se há restrições no banco de dados que possam estar impedindo a inserção dos dados.</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Problemas de navegação</h3>
+                    <ul>
+                        <li>Se as abas não funcionarem ou as páginas não carregarem, verifique se o JavaScript está habilitado no navegador.</li>
+                        <li>Certifique-se de que o navegador esteja atualizado e suporte as tecnologias utilizadas pela aplicação (HTML5, CSS3, JavaScript).</li>
+                        <li>Se estiver usando um navegador mais antigo, considere atualizá-lo ou usar um navegador moderno como Google Chrome, Mozilla Firefox ou Microsoft Edge.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="section" id="seguranca-e-privacidade">
+                <h2>Segurança e Privacidade</h2>
+                <p><strong>Senhas e autenticação:</strong> Esta aplicação não possui funcionalidade de autenticação de usuários. Portanto, não há necessidade de gerenciar senhas ou configurar autenticação.</p>
+                <div class="card">
+                    <p><strong>Armazenamento de dados:</strong> Os dados são armazenados em um banco de dados MySQL. É importante que o banco de dados esteja configurado com as devidas medidas de segurança, como senhas fortes e restrições de acesso.</p>
+                    <p><strong>Backup e recuperação:</strong> É recomendado realizar backups regulares do banco de dados para evitar perda de dados. Em caso de necessidade, os dados podem ser restaurados a partir de um backup.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="atualizacoes">
+                <h2>Atualizações</h2>
+                <div class="card">
+                    <p>As atualizações da aplicação serão realizadas pela equipe de desenvolvimento. Os usuários serão notificados sobre novas versões ou melhorias através do site oficial ou por meio de comunicações diretas.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="faqs">
+                <h2>FAQs</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como cadastrar um produto?</div>
+                    <div class="faq-answer">
+                        <ol>
+                            <li>Clique na aba "Cadastrar Produtos".</li>
+                            <li>Preencha o formulário com os dados do produto.</li>
+                            <li>Clique em "Cadastrar Produto".</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como listar todos os produtos?</div>
+                    <div class="faq-answer">
+                        <p>Clique na aba "Listar Produtos". A tabela com todos os produtos cadastrados será exibida.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como editar um produto?</div>
+                    <div class="faq-answer">
+                        <ol>
+                            <li>Clique na aba "Listar Produtos".</li>
+                            <li>Encontre o produto que deseja editar na tabela.</li>
+                            <li>Clique no botão "Editar" na linha correspondente.</li>
+                            <li>Faça as alterações necessárias no formulário.</li>
+                            <li>Clique em "Atualizar Produto".</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como excluir um produto?</div>
+                    <div class="faq-answer">
+                        <ol>
+                            <li>Clique na aba "Listar Produtos".</li>
+                            <li>Encontre o produto que deseja excluir na tabela.</li>
+                            <li>Clique no botão "Deletar" na linha correspondente.</li>
+                            <li>Confirme a exclusão na janela de confirmação.</li>
+                        </ol>
+                    </div>
+                </div>
