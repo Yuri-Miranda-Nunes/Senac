@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos</title>
 </head>
+<style>
+  
+</style>
 <body>
   <h1>Bem vindo a Biblioteca de Alexandria</h1>
-  <button><a href="Senac-UC13-JS-and-PHP\Atividades\19 - Desafio de lógica com páginas html\index.html">19 - Desafio de lógica com páginas html</a></button>
+  <!-- Página Home -->
+  <div id="home" class="page active">
+    <div class="main-content">
+      <div class="apps-grid">
+        <div class="app-card" onclick="showPage('UC13')">
+          <span class="app-icon"></span>
+          <h3 class="app-title">T10 - UC13</h3>
+          <p class="app-description">Todos os codigos feitos por mim para a Uc de PHP e JS durante meu tempo no Senac</p>
+          <span class="app-btn">Abrir Pasta</span>
+        </div>
+
+        <div class="app-card" onclick="showPage('conversor')">
+          <span class="app-icon"></span>
+          <h3 class="app-title">T10 - UC15</h3>
+          <p class="app-description">Todos os meus codigos html e css feitos durante a UC de desenvolvimento web no Senac</p>
+          <span class="app-btn">Abrir Pasta</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Página Calculadora de Média -->
+  <div id="media" class="page">
+    <div class="calculator-container">
+      <h2>Calculadora de Média Aritmética</h2>
+      <p>Informe dois números inteiros:</p>
+      <div class="input-group">
+        <input type="number" id="numero1" placeholder="Digite o primeiro número" required>
+        <input type="number" id="numero2" placeholder="Digite o segundo número" required>
+      </div>
+      <button class="calc-button" onclick="calcularMedia()">Calcular Média</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+
+  <!-- Página Conversor de Moeda -->
+  <div id="conversor" class="page">
+    <div class="converter-container">
+      <h2>Conversor de Moeda</h2>
+      <p class="subtitle">Conversão USD → BRL em tempo real</p>
+
+      <div class="input-group">
+        <label
+          style="color: rgba(255, 255, 255, 0.8); font-size: 16px; font-weight: 500; margin-bottom: 10px; display: block; text-align: left;">Valor
+          em Dólares Americanos</label>
+        <div style="position: relative;">
+          <span class="currency-symbol">$</span>
+          <input type="number" id="dolar" placeholder="0.00" step="0.01" min="0" style="padding-left: 45px;">
+        </div>
+      </div>
+
+      <button class="convert-btn" onclick="converter()">
+        Converter Agora
+      </button>
+
+      <div id="resultado-conversor"></div>
+
+      <div class="exchange-rate">
+        Taxa de câmbio: 1 USD = 5.57 BRL
+      </div>
+    </div>
+  </div>
+  <script>
+    // Sistema de navegação
+    function showPage(pageId) {
+      // Esconde todas as páginas
+      const pages = document.querySelectorAll('.page');
+      pages.forEach(page => page.classList.remove('active'));
+
+      // Mostra a página selecionada
+      document.getElementById(pageId).classList.add('active');
+
+      // Atualiza navegação ativa
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => link.classList.remove('active'));
+
+      // Adiciona classe ativa ao link correspondente
+      const activeLink = document.querySelector(`[onclick="showPage('${pageId}')"]`);
+      if (activeLink && activeLink.classList.contains('nav-link')) {
+        activeLink.classList.add('active');
+      }
+    }
+  </script>
 </body>
+
 </html>
