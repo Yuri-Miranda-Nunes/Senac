@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Dólar para Real</title>
+  <link rel="stylesheet" href="atv003.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Conversor de Moeda</h2>
+    <p class="subtitle">Conversão USD → BRL em tempo real</p>
+    
+    <div class="input-group">
+      <label class="input-label">Valor em Dólares Americanos</label>
+      <div style="position: relative;">
+        <span class="currency-symbol"></span>
+        <input type="number" id="dolar" placeholder="0.00" step="0.01" min="0">
+      </div>
+    </div>
+    
+    <button class="convert-btn" onclick="converter()">
+      Converter Agora
+    </button>
+    
+    <div id="resultado"></div>
+    
+    <div class="exchange-rate">
+      Taxa de câmbio: 1 USD = 5.57 BRL
+    </div>
+  </div>
+  <script src="atv003.js"></script>
+</body>
+</html>
